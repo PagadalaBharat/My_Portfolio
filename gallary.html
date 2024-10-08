@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Bootstrap Carousel</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      body{
+        background-color: black;
+      }
+      /* Carousel Custom Styling */
+      .carousel-inner img {
+        width: 100%;
+        height: auto; /* Adjust height according to width for mobile */
+      }
+
+      .carousel-item{
+        height: 500px;
+      }
+
+      /* Media queries for small screens */
+      @media (max-width: 576px) {
+        .carousel-inner img {
+          height: 250px; /* Set a specific height for very small screens */
+        }
+      }
+
+      @media (min-width: 576px) and (max-width: 768px) {
+        .carousel-inner img {
+          height: 400px; /* Adjust image height for medium screens */
+        }
+      }
+
+      @media (min-width: 768px) {
+        .carousel-inner img {
+          height: 600px; /* Larger images for desktop */
+        }
+      }
+      .div1 img,.div2 img,.div3 img,.div4 img,.div5 img,.div6 img,.div7 img,.div8 img,.div9 img{
+        width: 90%;
+        height: 50%;
+        
+      }
+      .parent {
+display: grid;
+height: 10%;
+background-color: aqua;
+grid-template-columns: 1fr 1fr 1fr ;
+
+gap: 30px;
+}
+
+
+
+    </style>
+</head>
+<body>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/c2.jpg" class="d-block w-100" alt="Slide 1">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/c.jpg" class="d-block w-100" alt="Slide 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/c1.jpg" class="d-block w-100" alt="Slide 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<div class="parent">
+  <div class="div1"> <img src="./images/founder1.jpg" alt=""></div>
+  <div class="div2"> <img src="./images/founder2.jpg" alt=""></div>
+  <div class="div3"> <img src="./images/founder3.jpg" alt=""></div>
+  <div class="div4"> <img src="./images/founder4.jpg" alt=""></div>
+  <div class="div5"> <img src="./images/achievements.jpg" alt=""></div>
+  <div class="div6"> <img src="./images/achi2.jpg" alt=""></div>
+  <div class="div7"> <img src="./images/achi3.jpg" alt=""></div>
+  <div class="div8"> <img src="./images/achi4.jpg" alt=""></div>
+  <div class="div9"> <img src="./images/main2.jpg" alt=""></div>
+  </div>
+
+</body>
+</html>
