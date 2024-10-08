@@ -331,7 +331,7 @@ ul li a:hover:before {
       overflow-x: hidden;
     }
     header{
-      background-color: aqua;
+      /* background-color: aqua; */
     }
     header ul{
       display: none;
@@ -366,7 +366,7 @@ ul li a:hover:before {
       margin-left: 5%;
 
       height: auto;
-      background-color: aqua;
+      /* background-color: aqua; */
       text-align: center;
       display: flex;
       justify-content: center;
@@ -374,7 +374,7 @@ ul li a:hover:before {
     }
     .section3{
       height: 150vh;
-      background-color: aqua;
+      /* background-color: aqua; */
     }
     .container{
       display: flex;
@@ -399,6 +399,10 @@ ul li a:hover:before {
       justify-content: center;
       align-items: center;
       row-gap: 20px;
+    }
+    form{
+      width: 90%;
+      margin-left: 5%;
     }
 
   }
