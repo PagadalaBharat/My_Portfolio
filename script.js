@@ -57,8 +57,7 @@ function achievements(){
     accomplishments.style.flexDirection = "column";
     accomplishments.style.gap = "15px";
 }
-
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxDL796XSJ1Nf6NVzVB4HvbVRIbPCBVvfRvKCagSS0nnHFwSOrZGG5cCBsMOU1EEtQn/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwIRJDGxhyUFNjFRpPYyluCtACXiEUyX8oLDugRVW1-qeDvL6eObKsCGl0pkfbmpmSu/exec'
 const form = document.forms['submit-to-google-sheet']
 
 form.addEventListener('submit', e => {
@@ -67,3 +66,18 @@ form.addEventListener('submit', e => {
     .then(response => console.log('Success!', response))
     .catch(error => console.error('Error!', error.message))
 })
+
+// names=document.getElementById("name").value
+// email=document.getElementById("email").value
+// textarea=document.getElementById("textarea").value
+
+// function submit(){
+// names.innerHTML=""
+// email.innerHTML=""
+// textarea.innerHTML=""
+
+//  }
+
+
+
+
