@@ -436,9 +436,13 @@ ul li a:hover:before {
 display:flex ;
   margin-top: -25vh;
 }
+.imgs img{
+  width: ;
+}
 .imgs{
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 0px 20px;
+  margin-left: 20px;
 }
   }
