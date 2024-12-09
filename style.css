@@ -261,6 +261,7 @@ ul li a:hover:before {
   .section4{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     height: 100vh;
     width: 100vw;
     
@@ -381,6 +382,18 @@ ul li a:hover:before {
 
 
     }
+    .skillssss{
+      font-size: 15px;
+    }
+    .techskillsss{
+      margin: 0px 10px;
+      align-items: center;
+      }
+      /* .techskillsss:hover{
+        background-color: #e4003a;
+        padding: 4px;
+        border-radius: 5px;
+        } */
     .intro2{
       margin-top: 10%;
       width:90%;
@@ -446,3 +459,9 @@ display:flex ;
   margin-left: 20px;
 }
   }
+
+.techskillsss:hover{
+background-color: #e4003a;
+padding: 4px;
+border-radius: 5px;
+}
